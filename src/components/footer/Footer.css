@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    justify-content:center;
+    gap:150px;
+    background-color: rgb(29,29,29);
+    height:350px;
+}
+
+.boxes{
+    margin-top:50px;
+    color:white;
+}
+
+.boxes > p:hover{
+    cursor: pointer;
+    color:rgb(146, 123, 123)
+}
+
+.name{
+    text-align: center;
+    background-color: rgb(29,29,29);
+    height:40px;
+}
+
+.name > a{
+    color:white;
+    text-decoration: none;
+}

@@ -1,0 +1,39 @@
+.accessories-main {
+    height: 600px;
+}
+
+.accessories-title {
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.accessories-container {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.accessory-card {
+    height: 20rem;
+    width: 20rem;
+}
+
+h3 {
+    margin: 15px 0px 0px 5px;
+}
+h4, h5 {
+    margin: 5px;
+    padding: 0px;
+}
+
+img {
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 20rem;
+    width: 100%;
+    transition: 0.2s ease;
+}
+.accessory-card > img:hover {
+    transform: scale(1.07);
+}

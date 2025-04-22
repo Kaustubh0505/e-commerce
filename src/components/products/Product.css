@@ -1,0 +1,56 @@
+.main{
+    height:600px;
+}
+
+
+.p{
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.products{
+    margin:20px;
+    display: flex;
+    justify-content: space-between;
+    gap:25px;
+    
+}
+
+.clothes{
+    height: 20rem;
+    width:20rem;
+    /* border:2px solid black; */
+    
+}
+h3{
+    margin:15px 0px 0px 5px;
+}
+h4,h5{
+    margin:5px;
+    padding:0px;
+}
+
+
+img{
+    border:1px solid black;
+    border-radius: 4px;
+    height:20rem;
+    width:100%;
+    transition: 0.2s ease;
+}
+.clothes > img:hover{
+    transform: scale(1.07);
+}
+
+.A{
+    margin-top: 200px;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.accessory{
+    margin:20px;
+    display: flex;
+    justify-content: space-between;
+    gap:25px;
+}
