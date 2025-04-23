@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import "./Accessories.css";
 
 const Accessories = ({allAccessories,cartA,setCartA}) => {
